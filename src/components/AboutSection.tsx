@@ -1,10 +1,10 @@
 import { Award, Users, Clock, Shield } from "lucide-react";
 
 const stats = [
-  { number: "25+", label: "Years of Excellence" },
-  { number: "15K+", label: "Happy Customers" },
-  { number: "500+", label: "Vehicles Sold Yearly" },
-  { number: "100%", label: "Customer Satisfaction" },
+  { number: "25+", label: "Jahre Erfahrung" },
+  { number: "15K+", label: "Zufriedene Kunden" },
+  { number: "500+", label: "Fahrzeuge pro Jahr" },
+  { number: "100%", label: "Kundenzufriedenheit" },
 ];
 
 const AboutSection = () => {
@@ -19,30 +19,31 @@ const AboutSection = () => {
           {/* Content */}
           <div>
             <p className="text-gold font-medium tracking-widest mb-3">
-              ABOUT US
+              ÜBER UNS
             </p>
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
-              A LEGACY OF
+              EIN VERMÄCHTNIS DER
               <br />
-              <span className="text-gradient-gold">EXCELLENCE</span>
+              <span className="text-gradient-gold">EXZELLENZ</span>
             </h2>
             <div className="space-y-4 text-primary-foreground/70">
               <p>
-                Since 1998, Elite Motors has been the premier destination for
-                discerning automotive enthusiasts. Our commitment to excellence
-                has made us the trusted choice for luxury and performance
-                vehicles.
+                Seit 1998 ist Elite Motors die erste Adresse für anspruchsvolle
+                Automobilenthusiasten. Unser Engagement für Exzellenz hat uns
+                zur vertrauenswürdigen Wahl für Luxus- und Hochleistungsfahrzeuge
+                gemacht.
               </p>
               <p>
-                We believe that purchasing a vehicle should be an experience as
-                exceptional as the car itself. Our team of automotive experts
-                provides personalized service, ensuring every client finds their
-                perfect match.
+                Wir glauben, dass der Kauf eines Fahrzeugs ein ebenso
+                außergewöhnliches Erlebnis sein sollte wie das Auto selbst. Unser
+                Team von Automobilexperten bietet persönlichen Service und stellt
+                sicher, dass jeder Kunde sein perfektes Fahrzeug findet.
               </p>
               <p>
-                From rare collectibles to the latest high-performance models, our
-                curated inventory represents the finest automobiles available.
-                Each vehicle undergoes a rigorous 150-point inspection process.
+                Von seltenen Sammlerstücken bis zu den neuesten Hochleistungsmodellen
+                – unser kuratiertes Inventar repräsentiert die feinsten verfügbaren
+                Automobile. Jedes Fahrzeug durchläuft einen strengen 150-Punkte-
+                Inspektionsprozess.
               </p>
             </div>
 
@@ -54,10 +55,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Certified Dealer
+                    Zertifizierter Händler
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Award-winning service
+                    Preisgekrönter Service
                   </p>
                 </div>
               </div>
@@ -67,10 +68,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Quality Guarantee
+                    Qualitätsgarantie
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    150-point inspection
+                    150-Punkte-Inspektion
                   </p>
                 </div>
               </div>
@@ -80,10 +81,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Expert Team
+                    Experten-Team
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Passionate specialists
+                    Leidenschaftliche Spezialisten
                   </p>
                 </div>
               </div>
@@ -93,10 +94,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Lifetime Support
+                    Lebenslanger Support
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Always here for you
+                    Immer für Sie da
                   </p>
                 </div>
               </div>
@@ -105,7 +106,7 @@ const AboutSection = () => {
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-6">
-            {stats.map((stat, index) => (
+            {stats.map((stat) => (
               <div
                 key={stat.label}
                 className="bg-charcoal-light/50 backdrop-blur-sm border border-gold/10 rounded-2xl p-8 text-center hover:border-gold/30 transition-colors duration-300"

@@ -3,39 +3,39 @@ import { Wrench, CreditCard, FileCheck, RefreshCw, Truck, Headphones } from "luc
 const services = [
   {
     icon: FileCheck,
-    title: "Vehicle Inspection",
+    title: "Fahrzeuginspektion",
     description:
-      "Comprehensive 150-point inspection on every vehicle, ensuring premium quality and reliability.",
+      "Umfassende 150-Punkte-Inspektion bei jedem Fahrzeug, die Premium-Qualität und Zuverlässigkeit garantiert.",
   },
   {
     icon: CreditCard,
-    title: "Flexible Financing",
+    title: "Flexible Finanzierung",
     description:
-      "Competitive rates and tailored financing solutions to fit your budget and lifestyle.",
+      "Wettbewerbsfähige Konditionen und maßgeschneiderte Finanzierungslösungen, die zu Ihrem Budget passen.",
   },
   {
     icon: RefreshCw,
-    title: "Trade-In Program",
+    title: "Inzahlungnahme",
     description:
-      "Get the best value for your current vehicle with our fair and transparent trade-in process.",
+      "Erhalten Sie den besten Wert für Ihr aktuelles Fahrzeug mit unserem fairen und transparenten Prozess.",
   },
   {
     icon: Wrench,
-    title: "Service Center",
+    title: "Servicecenter",
     description:
-      "Factory-trained technicians using genuine parts to maintain your vehicle's peak performance.",
+      "Werkstechniker mit Originalteilen, um die Höchstleistung Ihres Fahrzeugs zu erhalten.",
   },
   {
     icon: Truck,
-    title: "Nationwide Delivery",
+    title: "Deutschlandweite Lieferung",
     description:
-      "Secure, enclosed transport to deliver your dream car anywhere in the country.",
+      "Sichere, geschlossene Transportmöglichkeiten, um Ihr Traumauto überall in Deutschland zu liefern.",
   },
   {
     icon: Headphones,
-    title: "Concierge Service",
+    title: "Concierge-Service",
     description:
-      "Dedicated specialists available 24/7 to assist with all your automotive needs.",
+      "Dedizierte Spezialisten, die rund um die Uhr für alle Ihre automobilen Bedürfnisse verfügbar sind.",
   },
 ];
 
@@ -45,19 +45,19 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="text-gold font-medium tracking-widest mb-3">
-            WHAT WE OFFER
+            WAS WIR BIETEN
           </p>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
-            OUR SERVICES
+            UNSERE LEISTUNGEN
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Beyond exceptional vehicles, we provide comprehensive services to
-            ensure your ownership experience is nothing short of extraordinary.
+            Neben außergewöhnlichen Fahrzeugen bieten wir umfassende Services,
+            um sicherzustellen, dass Ihr Besitzerlebnis nichts weniger als außergewöhnlich ist.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
+          {services.map((service) => (
             <div
               key={service.title}
               className="group p-8 bg-card rounded-2xl border border-border hover:border-gold/30 transition-all duration-300 hover:shadow-card"

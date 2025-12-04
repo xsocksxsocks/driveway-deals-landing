@@ -1,27 +1,26 @@
-import { Car, Calendar, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const featuredCars = [
   {
     name: "Mercedes-AMG GT",
     year: 2024,
-    price: "$165,000",
+    price: "165.000 €",
     image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&auto=format&fit=crop&q=80",
-    specs: "577 HP | 0-60 in 3.1s",
+    specs: "577 PS | 0-100 in 3,1s",
   },
   {
     name: "Porsche 911 Turbo S",
     year: 2024,
-    price: "$230,000",
+    price: "230.000 €",
     image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&auto=format&fit=crop&q=80",
-    specs: "640 HP | 0-60 in 2.6s",
+    specs: "640 PS | 0-100 in 2,6s",
   },
   {
     name: "BMW M8 Competition",
     year: 2024,
-    price: "$145,000",
+    price: "145.000 €",
     image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&auto=format&fit=crop&q=80",
-    specs: "617 HP | 0-60 in 3.0s",
+    specs: "617 PS | 0-100 in 3,0s",
   },
 ];
 
@@ -31,14 +30,14 @@ const FeaturedInventory = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="text-gold font-medium tracking-widest mb-3">
-            OUR COLLECTION
+            UNSERE KOLLEKTION
           </p>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-4">
-            FEATURED VEHICLES
+            AUSGEWÄHLTE FAHRZEUGE
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Explore our handpicked selection of premium automobiles, each inspected
-            and certified to meet the highest standards.
+            Entdecken Sie unsere handverlesene Auswahl an Premium-Automobilen, 
+            jedes geprüft und zertifiziert nach höchsten Standards.
           </p>
         </div>
 
@@ -66,8 +65,8 @@ const FeaturedInventory = () => {
                 <p className="text-muted-foreground text-sm mb-4">{car.specs}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-gold font-bold text-xl">{car.price}</span>
-                  <Button variant="dark" size="sm">
-                    View Details
+                  <Button variant="dark" size="sm" asChild>
+                    <a href="mailto:info@elitemotors.com">Anfragen</a>
                   </Button>
                 </div>
               </div>
@@ -76,8 +75,8 @@ const FeaturedInventory = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg" className="border-foreground/20 hover:border-gold hover:text-gold">
-            View All Inventory
+          <Button variant="outline" size="lg" className="border-foreground/20 hover:border-gold hover:text-gold" asChild>
+            <a href="mailto:info@elitemotors.com">Alle Fahrzeuge anfragen</a>
           </Button>
         </div>
       </div>

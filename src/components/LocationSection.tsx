@@ -7,14 +7,15 @@ const LocationSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="text-gold font-medium tracking-widest mb-3">
-            VISIT US
+            BESUCHEN SIE UNS
           </p>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-4">
-            OUR LOCATION
+            UNSER STANDORT
           </h2>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
-            Experience our world-class showroom in person. Our team is ready to
-            welcome you and help you find your perfect vehicle.
+            Erleben Sie unseren erstklassigen Showroom persönlich. Unser Team
+            freut sich darauf, Sie zu begrüßen und Ihnen bei der Suche nach
+            Ihrem perfekten Fahrzeug zu helfen.
           </p>
         </div>
 
@@ -22,21 +23,21 @@ const LocationSection = () => {
           {/* Map */}
           <div className="rounded-2xl overflow-hidden h-[400px] lg:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076794379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sus!4v1643228273308!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.4087894587746!2d13.377704315808!3d52.51628097981082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851c655f20989%3A0x26bbfb4e84674c63!2sBrandenburger%20Tor!5e0!3m2!1sde!2sde!4v1643228273308!5m2!1sde!2sde"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Elite Motors Location"
+              title="Elite Motors Standort"
             />
           </div>
 
           {/* Contact Info */}
           <div className="bg-charcoal-light/50 backdrop-blur-sm rounded-2xl p-8 lg:p-12 border border-gold/10">
             <h3 className="font-display text-3xl text-primary-foreground mb-8">
-              GET IN TOUCH
+              KONTAKTIEREN SIE UNS
             </h3>
 
             <div className="space-y-6">
@@ -46,12 +47,12 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold mb-1">
-                    Address
+                    Adresse
                   </h4>
                   <p className="text-primary-foreground/70">
-                    123 Luxury Lane
+                    Luxusallee 123
                     <br />
-                    Manhattan, NY 10001
+                    10117 Berlin
                   </p>
                 </div>
               </div>
@@ -62,12 +63,12 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold mb-1">
-                    Phone
+                    Telefon
                   </h4>
                   <p className="text-primary-foreground/70">
-                    Sales: (123) 456-7890
+                    Verkauf: (030) 123-4567
                     <br />
-                    Service: (123) 456-7891
+                    Service: (030) 123-4568
                   </p>
                 </div>
               </div>
@@ -78,12 +79,12 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold mb-1">
-                    Email
+                    E-Mail
                   </h4>
                   <p className="text-primary-foreground/70">
-                    info@elitemotors.com
+                    <a href="mailto:info@elitemotors.de" className="hover:text-gold transition-colors">info@elitemotors.de</a>
                     <br />
-                    sales@elitemotors.com
+                    <a href="mailto:verkauf@elitemotors.de" className="hover:text-gold transition-colors">verkauf@elitemotors.de</a>
                   </p>
                 </div>
               </div>
@@ -94,22 +95,22 @@ const LocationSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold mb-1">
-                    Hours
+                    Öffnungszeiten
                   </h4>
                   <p className="text-primary-foreground/70">
-                    Mon - Fri: 9:00 AM - 8:00 PM
+                    Mo - Fr: 9:00 - 20:00 Uhr
                     <br />
-                    Saturday: 10:00 AM - 6:00 PM
+                    Samstag: 10:00 - 18:00 Uhr
                     <br />
-                    Sunday: 12:00 PM - 5:00 PM
+                    Sonntag: Geschlossen
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="mt-8 pt-8 border-t border-gold/10">
-              <Button variant="gold" size="lg" className="w-full">
-                Schedule a Visit
+              <Button variant="gold" size="lg" className="w-full" asChild>
+                <a href="mailto:info@elitemotors.de">E-Mail schreiben</a>
               </Button>
             </div>
           </div>
