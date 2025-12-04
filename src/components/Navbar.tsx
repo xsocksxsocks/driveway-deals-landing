@@ -15,11 +15,11 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "Inventory", href: "#inventory" },
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Location", href: "#location" },
+    { name: "Start", href: "#home" },
+    { name: "Fahrzeuge", href: "#inventory" },
+    { name: "Über Uns", href: "#about" },
+    { name: "Leistungen", href: "#services" },
+    { name: "Standort", href: "#location" },
   ];
 
   return (
@@ -58,8 +58,8 @@ const Navbar = () => {
             <Phone className="w-4 h-4" />
             <span className="text-sm">(123) 456-7890</span>
           </a>
-          <Button variant="gold" size="lg">
-            Contact Us
+          <Button variant="gold" size="lg" asChild>
+            <a href="mailto:info@elitemotors.com">Kontakt</a>
           </Button>
         </div>
 
@@ -89,8 +89,8 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <Button variant="gold" className="w-full mt-2">
-            Contact Us
+          <Button variant="gold" className="w-full mt-2" asChild>
+            <a href="mailto:info@elitemotors.com">Kontakt</a>
           </Button>
         </div>
       </div>

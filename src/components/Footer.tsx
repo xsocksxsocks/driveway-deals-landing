@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Twitter, Youtube, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,14 +12,16 @@ const Footer = () => {
         <div className="bg-gradient-to-r from-charcoal-light to-charcoal rounded-2xl p-8 md:p-12 border border-gold/20 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div>
             <h3 className="font-display text-3xl md:text-4xl text-primary-foreground mb-2">
-              READY TO FIND YOUR DREAM CAR?
+              BEREIT FÜR IHR TRAUMAUTO?
             </h3>
             <p className="text-primary-foreground/70">
-              Contact us today and let our experts help you.
+              Kontaktieren Sie uns noch heute und lassen Sie sich von unseren Experten beraten.
             </p>
           </div>
-          <Button variant="gold" size="xl" className="shrink-0">
-            Get Started <ArrowRight className="w-5 h-5 ml-2" />
+          <Button variant="gold" size="xl" className="shrink-0" asChild>
+            <a href="mailto:info@elitemotors.de">
+              Jetzt anfragen <ArrowRight className="w-5 h-5 ml-2" />
+            </a>
           </Button>
         </div>
       </div>
@@ -37,8 +40,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-primary-foreground/60 text-sm mb-6">
-              Your premier destination for luxury and performance vehicles since
-              1998.
+              Ihre erste Adresse für Luxus- und Hochleistungsfahrzeuge seit 1998.
             </p>
             <div className="flex gap-4">
               <a
@@ -71,43 +73,47 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="font-display text-xl text-primary-foreground mb-4">
-              QUICK LINKS
+              SCHNELLLINKS
             </h4>
             <ul className="space-y-3">
-              {["New Inventory", "Pre-Owned", "Specials", "Financing", "Trade-In"].map(
-                (link) => (
-                  <li key={link}>
-                    <a
-                      href="#"
-                      className="text-primary-foreground/60 hover:text-gold transition-colors text-sm"
-                    >
-                      {link}
-                    </a>
-                  </li>
-                )
-              )}
+              {[
+                { name: "Neufahrzeuge", href: "#inventory" },
+                { name: "Gebrauchtwagen", href: "#inventory" },
+                { name: "Angebote", href: "#inventory" },
+                { name: "Finanzierung", href: "#services" },
+                { name: "Inzahlungnahme", href: "#services" },
+              ].map((link) => (
+                <li key={link.name}>
+                  <a
+                    href={link.href}
+                    className="text-primary-foreground/60 hover:text-gold transition-colors text-sm"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
           {/* Services */}
           <div>
             <h4 className="font-display text-xl text-primary-foreground mb-4">
-              SERVICES
+              LEISTUNGEN
             </h4>
             <ul className="space-y-3">
               {[
-                "Vehicle Service",
-                "Parts & Accessories",
-                "Body Shop",
-                "Detailing",
-                "Warranties",
+                { name: "Fahrzeugservice", href: "#services" },
+                { name: "Ersatzteile & Zubehör", href: "#services" },
+                { name: "Karosserie-Werkstatt", href: "#services" },
+                { name: "Fahrzeugaufbereitung", href: "#services" },
+                { name: "Garantien", href: "#services" },
               ].map((link) => (
-                <li key={link}>
+                <li key={link.name}>
                   <a
-                    href="#"
+                    href={link.href}
                     className="text-primary-foreground/60 hover:text-gold transition-colors text-sm"
                   >
-                    {link}
+                    {link.name}
                   </a>
                 </li>
               ))}
@@ -117,13 +123,17 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h4 className="font-display text-xl text-primary-foreground mb-4">
-              CONTACT
+              KONTAKT
             </h4>
             <ul className="space-y-3 text-primary-foreground/60 text-sm">
-              <li>123 Luxury Lane</li>
-              <li>Manhattan, NY 10001</li>
-              <li className="pt-2">(123) 456-7890</li>
-              <li>info@elitemotors.com</li>
+              <li>Luxusallee 123</li>
+              <li>10117 Berlin</li>
+              <li className="pt-2">(030) 123-4567</li>
+              <li>
+                <a href="mailto:info@elitemotors.de" className="hover:text-gold transition-colors">
+                  info@elitemotors.de
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -133,27 +143,21 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-6 border-t border-gold/10">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {currentYear} Elite Motors. All rights reserved.
+            © {currentYear} Elite Motors. Alle Rechte vorbehalten.
           </p>
           <div className="flex gap-6">
-            <a
-              href="#"
+            <Link
+              to="/datenschutz"
               className="text-primary-foreground/50 hover:text-gold transition-colors text-sm"
             >
-              Privacy Policy
-            </a>
-            <a
-              href="#"
+              Datenschutz
+            </Link>
+            <Link
+              to="/impressum"
               className="text-primary-foreground/50 hover:text-gold transition-colors text-sm"
             >
-              Terms of Service
-            </a>
-            <a
-              href="#"
-              className="text-primary-foreground/50 hover:text-gold transition-colors text-sm"
-            >
-              Sitemap
-            </a>
+              Impressum
+            </Link>
           </div>
         </div>
       </div>
