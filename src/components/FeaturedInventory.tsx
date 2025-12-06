@@ -2,25 +2,25 @@ import { Button } from "@/components/ui/button";
 
 const featuredCars = [
   {
-    name: "Mercedes-AMG GT",
-    year: 2024,
-    price: "165.000 €",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&auto=format&fit=crop&q=80",
-    specs: "577 PS | 0-100 in 3,1s",
+    name: "VW Golf 8",
+    year: 2023,
+    price: "28.900 €",
+    image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&auto=format&fit=crop&q=80",
+    specs: "150 PS | Automatik | Benzin",
   },
   {
-    name: "Porsche 911 Turbo S",
-    year: 2024,
-    price: "230.000 €",
-    image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&auto=format&fit=crop&q=80",
-    specs: "640 PS | 0-100 in 2,6s",
+    name: "Skoda Octavia Combi",
+    year: 2022,
+    price: "24.500 €",
+    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&auto=format&fit=crop&q=80",
+    specs: "116 PS | Schaltgetriebe | Diesel",
   },
   {
-    name: "BMW M8 Competition",
-    year: 2024,
-    price: "145.000 €",
-    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&auto=format&fit=crop&q=80",
-    specs: "617 PS | 0-100 in 3,0s",
+    name: "Ford Focus Turnier",
+    year: 2023,
+    price: "22.800 €",
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&auto=format&fit=crop&q=80",
+    specs: "125 PS | Automatik | Benzin",
   },
 ];
 
