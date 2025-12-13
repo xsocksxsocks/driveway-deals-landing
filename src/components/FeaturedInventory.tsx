@@ -2,25 +2,25 @@ import { Button } from "@/components/ui/button";
 
 const featuredCars = [
   {
-    name: "VW Golf 8",
-    year: 2023,
-    price: "28.900 €",
-    image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&auto=format&fit=crop&q=80",
-    specs: "150 PS | Automatik | Benzin",
-  },
-  {
-    name: "Skoda Octavia Combi",
+    name: "Opel Astra Sports Tourer",
     year: 2022,
-    price: "24.500 €",
-    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&auto=format&fit=crop&q=80",
-    specs: "116 PS | Schaltgetriebe | Diesel",
+    price: "19.900 €",
+    image: "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&auto=format&fit=crop&q=80",
+    specs: "110 PS | Schaltgetriebe | Benzin",
   },
   {
-    name: "Ford Focus Turnier",
+    name: "Seat Leon ST",
+    year: 2021,
+    price: "17.500 €",
+    image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&auto=format&fit=crop&q=80",
+    specs: "115 PS | Schaltgetriebe | Diesel",
+  },
+  {
+    name: "Toyota Corolla Touring",
     year: 2023,
-    price: "22.800 €",
-    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=800&auto=format&fit=crop&q=80",
-    specs: "125 PS | Automatik | Benzin",
+    price: "23.900 €",
+    image: "https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=800&auto=format&fit=crop&q=80",
+    specs: "140 PS | Automatik | Hybrid",
   },
 ];
 
