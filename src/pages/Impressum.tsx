@@ -26,24 +26,24 @@ const Impressum = () => {
               <section className="bg-card rounded-2xl p-8 shadow-card">
                 <h2 className="font-display text-2xl text-foreground mb-4">Angaben gemäß § 5 TMG</h2>
                 <p className="leading-relaxed">
-                  Elite Motors GmbH<br />
-                  Luxusallee 123<br />
-                  10117 Berlin
+                  MSG Intercars Germany UG<br />
+                  Lohmühlenweg 6<br />
+                  97447 Gerolzhofen
                 </p>
               </section>
 
               <section className="bg-card rounded-2xl p-8 shadow-card">
                 <h2 className="font-display text-2xl text-foreground mb-4">Kontakt</h2>
                 <p className="leading-relaxed">
-                  Telefon: (030) 123-4567<br />
-                  E-Mail: <a href="mailto:info@elitemotors.de" className="text-gold hover:underline transition-colors">info@elitemotors.de</a>
+                  Telefon: +49 0000 000<br />
+                  E-Mail: <a href="mailto:info@msg-intercars.de" className="text-gold hover:underline transition-colors">info@msg-intercars.de</a>
                 </p>
               </section>
 
               <section className="bg-card rounded-2xl p-8 shadow-card">
                 <h2 className="font-display text-2xl text-foreground mb-4">Vertreten durch</h2>
                 <p className="leading-relaxed">
-                  Geschäftsführer: Max Mustermann
+                  Geschäftsführer: Moreno Dalpiaz
                 </p>
               </section>
 
@@ -51,25 +51,17 @@ const Impressum = () => {
                 <h2 className="font-display text-2xl text-foreground mb-4">Registereintrag</h2>
                 <p className="leading-relaxed">
                   Eintragung im Handelsregister<br />
-                  Registergericht: Amtsgericht Berlin-Charlottenburg<br />
-                  Registernummer: HRB 123456
-                </p>
-              </section>
-
-              <section className="bg-card rounded-2xl p-8 shadow-card">
-                <h2 className="font-display text-2xl text-foreground mb-4">Umsatzsteuer-ID</h2>
-                <p className="leading-relaxed">
-                  Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-                  DE 123456789
+                  Registergericht: Amtsgericht Schweinfurt<br />
+                  Registernummer: HRB 5895
                 </p>
               </section>
 
               <section className="bg-card rounded-2xl p-8 shadow-card">
                 <h2 className="font-display text-2xl text-foreground mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
                 <p className="leading-relaxed">
-                  Max Mustermann<br />
-                  Luxusallee 123<br />
-                  10117 Berlin
+                  Moreno Dalpiaz<br />
+                  Lohmühlenweg 6<br />
+                  97447 Gerolzhofen
                 </p>
               </section>
 

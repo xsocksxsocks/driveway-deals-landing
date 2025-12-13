@@ -23,14 +23,14 @@ const LocationSection = () => {
           {/* Map */}
           <div className="rounded-2xl overflow-hidden h-[400px] lg:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.4087894587746!2d13.377704315808!3d52.51628097981082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851c655f20989%3A0x26bbfb4e84674c63!2sBrandenburger%20Tor!5e0!3m2!1sde!2sde!4v1643228273308!5m2!1sde!2sde"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.123456789!2d10.3549!3d49.9000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a2f8a1234567890%3A0x1234567890abcdef!2sLohm%C3%BChlenweg%206%2C%2097447%20Gerolzhofen!5e0!3m2!1sde!2sde!4v1643228273308!5m2!1sde!2sde"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Elite Motors Standort"
+              title="MSG Intercars Standort"
             />
           </div>
 
@@ -50,9 +50,9 @@ const LocationSection = () => {
                     Adresse
                   </h4>
                   <p className="text-primary-foreground/70">
-                    Luxusallee 123
+                    Lohmühlenweg 6
                     <br />
-                    10117 Berlin
+                    97447 Gerolzhofen
                   </p>
                 </div>
               </div>
@@ -66,9 +66,7 @@ const LocationSection = () => {
                     Telefon
                   </h4>
                   <p className="text-primary-foreground/70">
-                    Verkauf: (030) 123-4567
-                    <br />
-                    Service: (030) 123-4568
+                    +49 0000 000
                   </p>
                 </div>
               </div>
@@ -82,9 +80,7 @@ const LocationSection = () => {
                     E-Mail
                   </h4>
                   <p className="text-primary-foreground/70">
-                    <a href="mailto:info@elitemotors.de" className="hover:text-gold transition-colors">info@elitemotors.de</a>
-                    <br />
-                    <a href="mailto:verkauf@elitemotors.de" className="hover:text-gold transition-colors">verkauf@elitemotors.de</a>
+                    <a href="mailto:info@msg-intercars.de" className="hover:text-gold transition-colors">info@msg-intercars.de</a>
                   </p>
                 </div>
               </div>
@@ -110,7 +106,7 @@ const LocationSection = () => {
 
             <div className="mt-8 pt-8 border-t border-gold/10">
               <Button variant="gold" size="lg" className="w-full" asChild>
-                <a href="mailto:info@elitemotors.de">E-Mail schreiben</a>
+                <a href="mailto:info@msg-intercars.de">E-Mail schreiben</a>
               </Button>
             </div>
           </div>
