@@ -1,9 +1,9 @@
 import { Award, Users, Clock, Shield } from "lucide-react";
 
 const stats = [
-  { number: "25+", label: "Jahre Erfahrung" },
-  { number: "15K+", label: "Zufriedene Kunden" },
-  { number: "500+", label: "Fahrzeuge pro Jahr" },
+  { number: "10+", label: "Jahre Erfahrung" },
+  { number: "1000+", label: "Zufriedene Kunden" },
+  { number: "200+", label: "Fahrzeuge pro Jahr" },
   { number: "100%", label: "Kundenzufriedenheit" },
 ];
 
@@ -22,28 +22,24 @@ const AboutSection = () => {
               ÜBER UNS
             </p>
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
-              EIN VERMÄCHTNIS DER
+              IHR AUTOHAUS MIT
               <br />
-              <span className="text-gradient-gold">EXZELLENZ</span>
+              <span className="text-gradient-gold">PERSÖNLICHKEIT</span>
             </h2>
             <div className="space-y-4 text-primary-foreground/70">
               <p>
-                Seit 1998 ist Elite Motors die erste Adresse für anspruchsvolle
-                Automobilenthusiasten. Unser Engagement für Exzellenz hat uns
-                zur vertrauenswürdigen Wahl für Luxus- und Hochleistungsfahrzeuge
-                gemacht.
+                MSG Intercars Germany ist Ihr zuverlässiger Partner für 
+                Gebrauchtwagen in Gerolzhofen und Umgebung. Wir setzen auf 
+                ehrliche Beratung und faire Preise.
               </p>
               <p>
-                Wir glauben, dass der Kauf eines Fahrzeugs ein ebenso
-                außergewöhnliches Erlebnis sein sollte wie das Auto selbst. Unser
-                Team von Automobilexperten bietet persönlichen Service und stellt
-                sicher, dass jeder Kunde sein perfektes Fahrzeug findet.
+                Wir glauben, dass der Autokauf unkompliziert und transparent 
+                sein sollte. Unser Team nimmt sich Zeit für Sie und hilft 
+                Ihnen dabei, das passende Fahrzeug für Ihre Bedürfnisse zu finden.
               </p>
               <p>
-                Von seltenen Sammlerstücken bis zu den neuesten Hochleistungsmodellen
-                – unser kuratiertes Inventar repräsentiert die feinsten verfügbaren
-                Automobile. Jedes Fahrzeug durchläuft einen strengen 150-Punkte-
-                Inspektionsprozess.
+                Jedes Fahrzeug in unserem Bestand wird sorgfältig geprüft, 
+                damit Sie sich auf Ihren neuen Gebrauchtwagen verlassen können.
               </p>
             </div>
 
@@ -55,10 +51,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Zertifizierter Händler
+                    Geprüfte Fahrzeuge
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Preisgekrönter Service
+                    Sorgfältig überprüft
                   </p>
                 </div>
               </div>
@@ -68,10 +64,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Qualitätsgarantie
+                    Faire Preise
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    150-Punkte-Inspektion
+                    Transparent & ehrlich
                   </p>
                 </div>
               </div>
@@ -81,10 +77,10 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Experten-Team
+                    Persönliche Beratung
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Leidenschaftliche Spezialisten
+                    Zeit für Ihre Fragen
                   </p>
                 </div>
               </div>

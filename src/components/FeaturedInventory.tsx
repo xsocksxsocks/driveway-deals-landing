@@ -5,21 +5,21 @@ const featuredCars = [
     name: "Opel Astra Sports Tourer",
     year: 2022,
     price: "19.900 €",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Opel_Astra_Sports_Tourer_1.2_DI_Turbo_Edition_%28L%29_%E2%80%93_f_30062021.jpg/1280px-Opel_Astra_Sports_Tourer_1.2_DI_Turbo_Edition_%28L%29_%E2%80%93_f_30062021.jpg",
+    image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=800&auto=format&fit=crop&q=80",
     specs: "110 PS | Schaltgetriebe | Benzin",
   },
   {
     name: "Seat Leon ST",
     year: 2021,
     price: "17.500 €",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/SEAT_Le%C3%B3n_ST_Style_1.0_TSI_%28KL%29_%E2%80%93_f_22032021.jpg/1280px-SEAT_Le%C3%B3n_ST_Style_1.0_TSI_%28KL%29_%E2%80%93_f_22032021.jpg",
+    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&q=80",
     specs: "115 PS | Schaltgetriebe | Diesel",
   },
   {
     name: "Toyota Corolla Touring",
     year: 2023,
     price: "23.900 €",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2019_Toyota_Corolla_Trek_Hybrid_1.8.jpg/1280px-2019_Toyota_Corolla_Trek_Hybrid_1.8.jpg",
+    image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=800&auto=format&fit=crop&q=80",
     specs: "140 PS | Automatik | Hybrid",
   },
 ];
@@ -36,8 +36,8 @@ const FeaturedInventory = () => {
             AUSGEWÄHLTE FAHRZEUGE
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Entdecken Sie unsere handverlesene Auswahl an Premium-Automobilen, 
-            jedes geprüft und zertifiziert nach höchsten Standards.
+            Entdecken Sie unsere Auswahl an geprüften Gebrauchtwagen, 
+            jedes Fahrzeug sorgfältig überprüft und fahrbereit.
           </p>
         </div>
 

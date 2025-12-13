@@ -13,9 +13,9 @@ const LocationSection = () => {
             UNSER STANDORT
           </h2>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
-            Erleben Sie unseren erstklassigen Showroom persönlich. Unser Team
+            Besuchen Sie uns vor Ort in Gerolzhofen. Unser Team
             freut sich darauf, Sie zu begrüßen und Ihnen bei der Suche nach
-            Ihrem perfekten Fahrzeug zu helfen.
+            Ihrem passenden Fahrzeug zu helfen.
           </p>
         </div>
 

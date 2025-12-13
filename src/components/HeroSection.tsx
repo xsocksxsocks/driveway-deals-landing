@@ -23,16 +23,16 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10 pt-20">
         <div className="max-w-3xl">
           <p className="text-gold font-medium tracking-widest mb-4 animate-fade-in opacity-0" style={{ animationDelay: "0.2s" }}>
-            PREMIUM AUTOMOBIL-ERLEBNIS
+            IHR AUTOHAUS IN GEROLZHOFEN
           </p>
           <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-primary-foreground leading-tight mb-6 animate-fade-in opacity-0" style={{ animationDelay: "0.4s" }}>
-            FAHREN SIE IHRE
+            FINDEN SIE IHR
             <br />
-            <span className="text-gradient-gold">TRÄUME</span>
+            <span className="text-gradient-gold">TRAUMAUTO</span>
           </h1>
           <p className="text-primary-foreground/70 text-lg md:text-xl max-w-xl mb-8 leading-relaxed animate-fade-in opacity-0" style={{ animationDelay: "0.6s" }}>
-            Entdecken Sie eine exklusive Auswahl an Luxus- und Hochleistungsfahrzeugen.
-            Wo Exzellenz auf die Straße trifft.
+            Geprüfte Gebrauchtwagen zu fairen Preisen.
+            Persönliche Beratung und zuverlässiger Service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in opacity-0" style={{ animationDelay: "0.8s" }}>
             <Button variant="gold" size="xl" asChild>
