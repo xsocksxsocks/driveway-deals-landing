@@ -3,39 +3,39 @@ import { Wrench, CreditCard, FileCheck, RefreshCw, Truck, Headphones } from "luc
 const services = [
   {
     icon: FileCheck,
-    title: "Fahrzeuginspektion",
+    title: "Fahrzeugprüfung",
     description:
-      "Umfassende 150-Punkte-Inspektion bei jedem Fahrzeug, die Premium-Qualität und Zuverlässigkeit garantiert.",
+      "Jedes Fahrzeug wird vor dem Verkauf gründlich geprüft, damit Sie sicher unterwegs sind.",
   },
   {
     icon: CreditCard,
     title: "Flexible Finanzierung",
     description:
-      "Wettbewerbsfähige Konditionen und maßgeschneiderte Finanzierungslösungen, die zu Ihrem Budget passen.",
+      "Wir bieten verschiedene Finanzierungsmöglichkeiten, die zu Ihrem Budget passen.",
   },
   {
     icon: RefreshCw,
     title: "Inzahlungnahme",
     description:
-      "Erhalten Sie den besten Wert für Ihr aktuelles Fahrzeug mit unserem fairen und transparenten Prozess.",
+      "Wir nehmen Ihren Gebrauchtwagen gerne in Zahlung – fair und unkompliziert.",
   },
   {
     icon: Wrench,
-    title: "Servicecenter",
+    title: "Werkstatt-Service",
     description:
-      "Werkstechniker mit Originalteilen, um die Höchstleistung Ihres Fahrzeugs zu erhalten.",
+      "Unser Werkstatt-Team kümmert sich um Wartung und Reparaturen Ihres Fahrzeugs.",
   },
   {
     icon: Truck,
-    title: "Deutschlandweite Lieferung",
+    title: "Fahrzeuglieferung",
     description:
-      "Sichere, geschlossene Transportmöglichkeiten, um Ihr Traumauto überall in Deutschland zu liefern.",
+      "Auf Wunsch liefern wir Ihr neues Auto direkt zu Ihnen nach Hause.",
   },
   {
     icon: Headphones,
-    title: "Concierge-Service",
+    title: "Kundenservice",
     description:
-      "Dedizierte Spezialisten, die rund um die Uhr für alle Ihre automobilen Bedürfnisse verfügbar sind.",
+      "Bei Fragen sind wir für Sie da – vor, während und nach dem Kauf.",
   },
 ];
 
@@ -51,8 +51,8 @@ const ServicesSection = () => {
             UNSERE LEISTUNGEN
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Neben außergewöhnlichen Fahrzeugen bieten wir umfassende Services,
-            um sicherzustellen, dass Ihr Besitzerlebnis nichts weniger als außergewöhnlich ist.
+            Wir bieten Ihnen mehr als nur Fahrzeuge – unser Service begleitet Sie 
+            von der Beratung bis zur Wartung.
           </p>
         </div>
 
