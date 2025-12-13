@@ -5,21 +5,21 @@ const featuredCars = [
     name: "Opel Astra Sports Tourer",
     year: 2022,
     price: "19.900 €",
-    image: "https://images.unsplash.com/photo-1590362891991-f776e747a588?w=800&auto=format&fit=crop&q=80",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Opel_Astra_Sports_Tourer_1.2_DI_Turbo_Edition_%28L%29_%E2%80%93_f_30062021.jpg/1280px-Opel_Astra_Sports_Tourer_1.2_DI_Turbo_Edition_%28L%29_%E2%80%93_f_30062021.jpg",
     specs: "110 PS | Schaltgetriebe | Benzin",
   },
   {
     name: "Seat Leon ST",
     year: 2021,
     price: "17.500 €",
-    image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=800&auto=format&fit=crop&q=80",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/SEAT_Le%C3%B3n_ST_Style_1.0_TSI_%28KL%29_%E2%80%93_f_22032021.jpg/1280px-SEAT_Le%C3%B3n_ST_Style_1.0_TSI_%28KL%29_%E2%80%93_f_22032021.jpg",
     specs: "115 PS | Schaltgetriebe | Diesel",
   },
   {
     name: "Toyota Corolla Touring",
     year: 2023,
     price: "23.900 €",
-    image: "https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=800&auto=format&fit=crop&q=80",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2019_Toyota_Corolla_Trek_Hybrid_1.8.jpg/1280px-2019_Toyota_Corolla_Trek_Hybrid_1.8.jpg",
     specs: "140 PS | Automatik | Hybrid",
   },
 ];
@@ -66,7 +66,7 @@ const FeaturedInventory = () => {
                 <div className="flex items-center justify-between">
                   <span className="text-gold font-bold text-xl">{car.price}</span>
                   <Button variant="dark" size="sm" asChild>
-                    <a href="mailto:info@elitemotors.com">Anfragen</a>
+                    <a href="mailto:info@msg-intercars.de">Anfragen</a>
                   </Button>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const FeaturedInventory = () => {
 
         <div className="text-center mt-12">
           <Button variant="outline" size="lg" className="border-foreground/20 hover:border-gold hover:text-gold" asChild>
-            <a href="mailto:info@elitemotors.com">Alle Fahrzeuge anfragen</a>
+            <a href="mailto:info@msg-intercars.de">Alle Fahrzeuge anfragen</a>
           </Button>
         </div>
       </div>

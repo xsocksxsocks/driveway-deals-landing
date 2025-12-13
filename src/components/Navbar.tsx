@@ -33,10 +33,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2">
           <span className="font-display text-3xl text-gold tracking-wider">
-            ELITE
+            MSG
           </span>
           <span className="font-display text-3xl text-primary-foreground tracking-wider">
-            MOTORS
+            INTERCARS
           </span>
         </a>
 
@@ -54,12 +54,12 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex items-center gap-4">
-          <a href="tel:+1234567890" className="flex items-center gap-2 text-primary-foreground/80 hover:text-gold transition-colors">
+          <a href="tel:+490000000" className="flex items-center gap-2 text-primary-foreground/80 hover:text-gold transition-colors">
             <Phone className="w-4 h-4" />
-            <span className="text-sm">(123) 456-7890</span>
+            <span className="text-sm">+49 0000 000</span>
           </a>
           <Button variant="gold" size="lg" asChild>
-            <a href="mailto:info@elitemotors.com">Kontakt</a>
+            <a href="mailto:info@msg-intercars.de">Kontakt</a>
           </Button>
         </div>
 
@@ -90,7 +90,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="gold" className="w-full mt-2" asChild>
-            <a href="mailto:info@elitemotors.com">Kontakt</a>
+            <a href="mailto:info@msg-intercars.de">Kontakt</a>
           </Button>
         </div>
       </div>

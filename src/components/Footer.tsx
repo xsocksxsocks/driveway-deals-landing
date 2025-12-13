@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
           </div>
           <Button variant="gold" size="xl" className="shrink-0" asChild>
-            <a href="mailto:info@elitemotors.de">
+            <a href="mailto:info@msg-intercars.de">
               Jetzt anfragen <ArrowRight className="w-5 h-5 ml-2" />
             </a>
           </Button>
@@ -33,14 +33,14 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <span className="font-display text-2xl text-gold tracking-wider">
-                ELITE
+                MSG
               </span>
               <span className="font-display text-2xl text-primary-foreground tracking-wider">
-                MOTORS
+                INTERCARS
               </span>
             </div>
             <p className="text-primary-foreground/60 text-sm mb-6">
-              Ihre erste Adresse für Luxus- und Hochleistungsfahrzeuge seit 1998.
+              Ihre erste Adresse für zuverlässige Familienfahrzeuge in Gerolzhofen.
             </p>
             <div className="flex gap-4">
               <a
@@ -126,12 +126,12 @@ const Footer = () => {
               KONTAKT
             </h4>
             <ul className="space-y-3 text-primary-foreground/60 text-sm">
-              <li>Luxusallee 123</li>
-              <li>10117 Berlin</li>
-              <li className="pt-2">(030) 123-4567</li>
+              <li>Lohmühlenweg 6</li>
+              <li>97447 Gerolzhofen</li>
+              <li className="pt-2">+49 0000 000</li>
               <li>
-                <a href="mailto:info@elitemotors.de" className="hover:text-gold transition-colors">
-                  info@elitemotors.de
+                <a href="mailto:info@msg-intercars.de" className="hover:text-gold transition-colors">
+                  info@msg-intercars.de
                 </a>
               </li>
             </ul>
@@ -143,7 +143,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-6 border-t border-gold/10">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {currentYear} Elite Motors. Alle Rechte vorbehalten.
+            © {currentYear} MSG Intercars Germany UG. Alle Rechte vorbehalten.
           </p>
           <div className="flex gap-6">
             <Link

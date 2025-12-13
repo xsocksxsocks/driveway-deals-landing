@@ -39,7 +39,7 @@ const HeroSection = () => {
               <a href="#inventory">Fahrzeuge ansehen</a>
             </Button>
             <Button variant="hero" size="xl" asChild>
-              <a href="mailto:info@elitemotors.com">Kontakt aufnehmen</a>
+              <a href="mailto:info@msg-intercars.de">Kontakt aufnehmen</a>
             </Button>
           </div>
         </div>
