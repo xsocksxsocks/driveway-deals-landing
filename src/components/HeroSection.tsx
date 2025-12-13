@@ -36,7 +36,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in opacity-0" style={{ animationDelay: "0.8s" }}>
             <Button variant="gold" size="xl" asChild>
-              <a href="#inventory">Fahrzeuge ansehen</a>
+              <a href="mailto:info@msg-intercars.de">Fahrzeuge anfragen</a>
             </Button>
             <Button variant="hero" size="xl" asChild>
               <a href="mailto:info@msg-intercars.de">Kontakt aufnehmen</a>
