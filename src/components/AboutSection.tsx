@@ -1,10 +1,9 @@
-import { Award, Users, Clock, Shield } from "lucide-react";
+import { Car, Users, ThumbsUp, MapPin } from "lucide-react";
 
 const stats = [
   { number: "10+", label: "Jahre Erfahrung" },
-  { number: "1000+", label: "Zufriedene Kunden" },
-  { number: "200+", label: "Fahrzeuge pro Jahr" },
-  { number: "100%", label: "Kundenzufriedenheit" },
+  { number: "500+", label: "Zufriedene Kunden" },
+  { number: "100+", label: "Fahrzeuge verkauft" },
 ];
 
 const AboutSection = () => {
@@ -47,27 +46,27 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="flex items-start gap-3">
                 <div className="p-2 bg-gold/10 rounded-lg">
-                  <Award className="w-6 h-6 text-gold" />
+                  <Car className="w-6 h-6 text-gold" />
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Geprüfte Fahrzeuge
+                    Geprüfte Autos
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Sorgfältig überprüft
+                    Vor dem Verkauf gecheckt
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="p-2 bg-gold/10 rounded-lg">
-                  <Shield className="w-6 h-6 text-gold" />
+                  <ThumbsUp className="w-6 h-6 text-gold" />
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
                     Faire Preise
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Transparent & ehrlich
+                    Keine versteckten Kosten
                   </p>
                 </div>
               </div>
@@ -77,23 +76,23 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Persönliche Beratung
+                    Persönlich
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Zeit für Ihre Fragen
+                    Wir nehmen uns Zeit
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="p-2 bg-gold/10 rounded-lg">
-                  <Clock className="w-6 h-6 text-gold" />
+                  <MapPin className="w-6 h-6 text-gold" />
                 </div>
                 <div>
                   <h4 className="text-primary-foreground font-semibold">
-                    Lebenslanger Support
+                    Regional
                   </h4>
                   <p className="text-primary-foreground/60 text-sm">
-                    Immer für Sie da
+                    Aus der Region
                   </p>
                 </div>
               </div>

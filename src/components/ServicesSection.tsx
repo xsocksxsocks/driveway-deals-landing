@@ -1,4 +1,4 @@
-import { Wrench, CreditCard, FileCheck, RefreshCw, Truck, Headphones } from "lucide-react";
+import { FileCheck, RefreshCw, Truck, Headphones, Sparkles, ClipboardCheck } from "lucide-react";
 
 const services = [
   {
@@ -8,10 +8,10 @@ const services = [
       "Jedes Fahrzeug wird vor dem Verkauf gründlich geprüft, damit Sie sicher unterwegs sind.",
   },
   {
-    icon: CreditCard,
-    title: "Flexible Finanzierung",
+    icon: Sparkles,
+    title: "Fahrzeugaufbereitung",
     description:
-      "Wir bieten verschiedene Finanzierungsmöglichkeiten, die zu Ihrem Budget passen.",
+      "Ihr neues Auto wird vor der Übergabe professionell gereinigt und aufbereitet.",
   },
   {
     icon: RefreshCw,
@@ -20,10 +20,10 @@ const services = [
       "Wir nehmen Ihren Gebrauchtwagen gerne in Zahlung – fair und unkompliziert.",
   },
   {
-    icon: Wrench,
-    title: "Werkstatt-Service",
+    icon: ClipboardCheck,
+    title: "Zulassungsservice",
     description:
-      "Unser Werkstatt-Team kümmert sich um Wartung und Reparaturen Ihres Fahrzeugs.",
+      "Wir kümmern uns um die Anmeldung Ihres neuen Fahrzeugs – Sie sparen Zeit und Aufwand.",
   },
   {
     icon: Truck,
