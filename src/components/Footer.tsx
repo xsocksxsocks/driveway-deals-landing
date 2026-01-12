@@ -77,11 +77,10 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               {[
-                { name: "Neufahrzeuge", href: "#inventory" },
-                { name: "Gebrauchtwagen", href: "#inventory" },
-                { name: "Angebote", href: "#inventory" },
-                { name: "Finanzierung", href: "#services" },
-                { name: "Inzahlungnahme", href: "#services" },
+                { name: "Start", href: "#home" },
+                { name: "Über Uns", href: "#about" },
+                { name: "Leistungen", href: "#services" },
+                { name: "Standort", href: "#location" },
               ].map((link) => (
                 <li key={link.name}>
                   <a
@@ -128,7 +127,11 @@ const Footer = () => {
             <ul className="space-y-3 text-primary-foreground/60 text-sm">
               <li>Lohmühlenweg 6</li>
               <li>97447 Gerolzhofen</li>
-              <li className="pt-2">+49 0000 000</li>
+              <li className="pt-2">
+                <a href="tel:+4915784227058" className="hover:text-gold transition-colors">
+                  +49 157 84227058
+                </a>
+              </li>
               <li>
                 <a href="mailto:info@msg-intercars.de" className="hover:text-gold transition-colors">
                   info@msg-intercars.de
