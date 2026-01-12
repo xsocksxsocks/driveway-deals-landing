@@ -16,7 +16,6 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Start", href: "#home" },
-    { name: "Fahrzeuge", href: "#inventory" },
     { name: "Über Uns", href: "#about" },
     { name: "Leistungen", href: "#services" },
     { name: "Standort", href: "#location" },
@@ -54,9 +53,9 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex items-center gap-4">
-          <a href="tel:+490000000" className="flex items-center gap-2 text-primary-foreground/80 hover:text-gold transition-colors">
+          <a href="tel:+4915784227058" className="flex items-center gap-2 text-primary-foreground/80 hover:text-gold transition-colors">
             <Phone className="w-4 h-4" />
-            <span className="text-sm">+49 0000 000</span>
+            <span className="text-sm">+49 157 84227058</span>
           </a>
           <Button variant="gold" size="lg" asChild>
             <a href="mailto:info@msg-intercars.de">Kontakt</a>
