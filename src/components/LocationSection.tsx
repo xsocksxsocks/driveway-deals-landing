@@ -66,7 +66,7 @@ const LocationSection = () => {
                     Telefon
                   </h4>
                   <p className="text-primary-foreground/70">
-                    <a href="tel:+4915784227058" className="hover:text-gold transition-colors">+49 157 84227058</a>
+                    Auf Anfrage
                   </p>
                 </div>
               </div>

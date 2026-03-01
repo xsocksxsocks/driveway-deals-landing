@@ -53,10 +53,10 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex items-center gap-4">
-          <a href="tel:+4915784227058" className="flex items-center gap-2 text-primary-foreground/80 hover:text-gold transition-colors">
+          <span className="flex items-center gap-2 text-primary-foreground/80">
             <Phone className="w-4 h-4" />
-            <span className="text-sm">+49 157 84227058</span>
-          </a>
+            <span className="text-sm">Auf Anfrage</span>
+          </span>
           <Button variant="gold" size="lg" asChild>
             <a href="mailto:info@msg-intercars.de">Kontakt</a>
           </Button>
