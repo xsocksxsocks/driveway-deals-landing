@@ -49,12 +49,12 @@ const Datenschutz = () => {
                   Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
                 </p>
                 <p className="leading-relaxed">
-                  Elite Motors GmbH<br />
-                  Luxusallee 123<br />
-                  10117 Berlin<br />
-                  <br />
-                  Telefon: (030) 123-4567<br />
-                  E-Mail: <a href="mailto:datenschutz@elitemotors.de" className="text-gold hover:underline transition-colors">datenschutz@elitemotors.de</a>
+                   MSG Intercars Germany UG<br />
+                   Lohmühlenweg 6<br />
+                   97447 Gerolzhofen<br />
+                   <br />
+                   Telefon: Auf Anfrage<br />
+                   E-Mail: <a href="mailto:info@msg-intercars.de" className="text-gold hover:underline transition-colors">info@msg-intercars.de</a>
                 </p>
               </section>
 
