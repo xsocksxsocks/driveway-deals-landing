@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
 
@@ -7,7 +7,17 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { pathname } = useLocation();
+  const navigate = useNavigate();
   const isHome = pathname === "/";
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    if (isHome) {
+      document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate("/" + href);
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +43,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#home" className="flex items-center gap-2">
+        <a href="/" onClick={(e) => { e.preventDefault(); navigate("/"); }} className="flex items-center gap-2 cursor-pointer">
           <span className="font-display text-3xl text-gold tracking-wider">
             MSG
           </span>
@@ -48,7 +58,8 @@ const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-primary-foreground/80 hover:text-gold transition-colors duration-300 font-medium text-sm tracking-wide"
+              onClick={(e) => handleNavClick(e, link.href)}
+              className="text-primary-foreground/80 hover:text-gold transition-colors duration-300 font-medium text-sm tracking-wide cursor-pointer"
             >
               {link.name}
             </a>
@@ -85,8 +96,8 @@ const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-primary-foreground/80 hover:text-gold transition-colors duration-300 font-medium py-2"
-              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-primary-foreground/80 hover:text-gold transition-colors duration-300 font-medium py-2 cursor-pointer"
+              onClick={(e) => { handleNavClick(e, link.href); setIsMobileMenuOpen(false); }}
             >
               {link.name}
             </a>
