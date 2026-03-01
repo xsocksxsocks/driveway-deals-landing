@@ -35,7 +35,7 @@ const Impressum = () => {
               <section className="bg-card rounded-2xl p-8 shadow-card">
                 <h2 className="font-display text-2xl text-foreground mb-4">Kontakt</h2>
                 <p className="leading-relaxed">
-                  Auf Anfrage<br />
+                  Telefon: Auf Anfrage<br />
                   E-Mail: <a href="mailto:kontakt@msg-intercars.com" className="text-gold hover:underline transition-colors">kontakt@msg-intercars.com</a>
                 </p>
               </section>
