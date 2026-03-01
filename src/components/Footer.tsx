@@ -77,10 +77,10 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               {[
-                { name: "Start", href: "#home" },
-                { name: "Über Uns", href: "#about" },
-                { name: "Leistungen", href: "#services" },
-                { name: "Standort", href: "#location" },
+                { name: "Start", href: "/#home" },
+                { name: "Über Uns", href: "/#about" },
+                { name: "Leistungen", href: "/#services" },
+                { name: "Standort", href: "/#location" },
               ].map((link) => (
                 <li key={link.name}>
                   <a
@@ -101,11 +101,11 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3">
               {[
-                { name: "Fahrzeugservice", href: "#services" },
-                { name: "Ersatzteile & Zubehör", href: "#services" },
-                { name: "Karosserie-Werkstatt", href: "#services" },
-                { name: "Fahrzeugaufbereitung", href: "#services" },
-                { name: "Garantien", href: "#services" },
+                { name: "Fahrzeugservice", href: "/#services" },
+                { name: "Ersatzteile & Zubehör", href: "/#services" },
+                { name: "Karosserie-Werkstatt", href: "/#services" },
+                { name: "Fahrzeugaufbereitung", href: "/#services" },
+                { name: "Garantien", href: "/#services" },
               ].map((link) => (
                 <li key={link.name}>
                   <a
