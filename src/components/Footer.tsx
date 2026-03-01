@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter, Youtube, ArrowRight } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -31,14 +32,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="font-display text-2xl text-gold tracking-wider">
-                MSG
-              </span>
-              <span className="font-display text-2xl text-primary-foreground tracking-wider">
-                INTERCARS
-              </span>
-            </div>
+            <img src={logo} alt="MSG Intercars Logo" className="h-8 mb-4" />
             <p className="text-primary-foreground/60 text-sm mb-6">
               Ihre erste Adresse für zuverlässige Familienfahrzeuge in Gerolzhofen.
             </p>
