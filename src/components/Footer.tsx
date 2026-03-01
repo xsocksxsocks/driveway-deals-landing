@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
           </div>
           <Button variant="gold" size="xl" className="shrink-0" asChild>
-            <a href="mailto:info@msg-intercars.de">
+            <a href="mailto:kontakt@msg-intercars.com">
               Jetzt anfragen <ArrowRight className="w-5 h-5 ml-2" />
             </a>
           </Button>
@@ -123,8 +123,8 @@ const Footer = () => {
               <li>97447 Gerolzhofen</li>
               <li className="pt-2">Auf Anfrage</li>
               <li>
-                <a href="mailto:info@msg-intercars.de" className="hover:text-gold transition-colors">
-                  info@msg-intercars.de
+                <a href="mailto:kontakt@msg-intercars.com" className="hover:text-gold transition-colors">
+                  kontakt@msg-intercars.com
                 </a>
               </li>
             </ul>
