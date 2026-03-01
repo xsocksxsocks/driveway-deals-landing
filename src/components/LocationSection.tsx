@@ -80,7 +80,7 @@ const LocationSection = () => {
                     E-Mail
                   </h4>
                   <p className="text-primary-foreground/70">
-                    <a href="mailto:info@msg-intercars.de" className="hover:text-gold transition-colors">info@msg-intercars.de</a>
+                    <a href="mailto:kontakt@msg-intercars.com" className="hover:text-gold transition-colors">kontakt@msg-intercars.com</a>
                   </p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ const LocationSection = () => {
 
             <div className="mt-8 pt-8 border-t border-gold/10">
               <Button variant="gold" size="lg" className="w-full" asChild>
-                <a href="mailto:info@msg-intercars.de">E-Mail schreiben</a>
+                <a href="mailto:kontakt@msg-intercars.com">E-Mail schreiben</a>
               </Button>
             </div>
           </div>

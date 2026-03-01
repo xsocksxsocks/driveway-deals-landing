@@ -68,7 +68,7 @@ const Navbar = () => {
             <span className="text-sm">Auf Anfrage</span>
           </span>
           <Button variant="gold" size="lg" asChild>
-            <a href="mailto:info@msg-intercars.de">Kontakt</a>
+            <a href="mailto:kontakt@msg-intercars.com">Kontakt</a>
           </Button>
         </div>
 
@@ -99,7 +99,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="gold" className="w-full mt-2" asChild>
-            <a href="mailto:info@msg-intercars.de">Kontakt</a>
+            <a href="mailto:kontakt@msg-intercars.com">Kontakt</a>
           </Button>
         </div>
       </div>
