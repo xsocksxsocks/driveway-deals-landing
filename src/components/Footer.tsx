@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Youtube, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import logo from "@/assets/logo.png";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -36,32 +36,6 @@ const Footer = () => {
             <p className="text-primary-foreground/60 text-sm mb-6">
               Ihre erste Adresse für zuverlässige Familienfahrzeuge in Gerolzhofen.
             </p>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="p-2 bg-gold/10 rounded-lg hover:bg-gold/20 transition-colors"
-              >
-                <Facebook className="w-5 h-5 text-gold" />
-              </a>
-              <a
-                href="#"
-                className="p-2 bg-gold/10 rounded-lg hover:bg-gold/20 transition-colors"
-              >
-                <Instagram className="w-5 h-5 text-gold" />
-              </a>
-              <a
-                href="#"
-                className="p-2 bg-gold/10 rounded-lg hover:bg-gold/20 transition-colors"
-              >
-                <Twitter className="w-5 h-5 text-gold" />
-              </a>
-              <a
-                href="#"
-                className="p-2 bg-gold/10 rounded-lg hover:bg-gold/20 transition-colors"
-              >
-                <Youtube className="w-5 h-5 text-gold" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
