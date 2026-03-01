@@ -53,7 +53,7 @@ const Datenschutz = () => {
                    Lohmühlenweg 6<br />
                    97447 Gerolzhofen<br />
                    <br />
-                   Telefon: Auf Anfrage<br />
+                   Auf Anfrage<br />
                    E-Mail: <a href="mailto:kontakt@msg-intercars.com" className="text-gold hover:underline transition-colors">kontakt@msg-intercars.com</a>
                 </p>
               </section>
