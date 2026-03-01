@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "@/assets/logo.png";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
@@ -44,12 +45,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="/" onClick={(e) => { e.preventDefault(); navigate("/"); }} className="flex items-center gap-2 cursor-pointer">
-          <span className="font-display text-3xl text-gold tracking-wider">
-            MSG
-          </span>
-          <span className="font-display text-3xl text-primary-foreground tracking-wider">
-            INTERCARS
-          </span>
+          <img src={logo} alt="MSG Intercars Logo" className="h-10" />
         </a>
 
         {/* Desktop Navigation */}
