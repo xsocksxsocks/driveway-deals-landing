@@ -66,7 +66,7 @@ const LocationSection = () => {
                     Telefon
                   </h4>
                   <p className="text-primary-foreground/70">
-                    Telefon: Auf Anfrage
+                    Auf Anfrage
                   </p>
                 </div>
               </div>
