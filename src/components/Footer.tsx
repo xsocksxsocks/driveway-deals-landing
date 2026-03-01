@@ -121,7 +121,7 @@ const Footer = () => {
             <ul className="space-y-3 text-primary-foreground/60 text-sm">
               <li>Lohmühlenweg 6</li>
               <li>97447 Gerolzhofen</li>
-              <li className="pt-2">Auf Anfrage</li>
+              <li className="pt-2">Telefon: Auf Anfrage</li>
               <li>
                 <a href="mailto:kontakt@msg-intercars.com" className="hover:text-gold transition-colors">
                   kontakt@msg-intercars.com
